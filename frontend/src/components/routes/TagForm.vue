@@ -12,7 +12,7 @@
         >
 
         
-          <span class="button span">
+          <span>
             {{ withTag.tag }}
           </span>
         </button>
@@ -26,7 +26,7 @@
           :class="{grayscale:!whatTag.isSelcted}" 
           @click="addWhatTag(whatTag.tagnum); addWhatTagButtonClass(whatTag.idx);"
         >
-          <span class="button span">
+          <span>
             {{ whatTag.tag }}
           </span>
         </button>
@@ -100,18 +100,31 @@ export default {
 </script>
 
 <style>
-/* 임시로 가독성을 위해 넣는 클래스 스타일입니다 */
 .button {
-  height: 65px;
-  background: #8860D0;
+  width: 70px;
+  height: 25px;
+  background: #C1C8E4;
   border-radius: 16px;
   text-align: center;
   cursor: pointer;
   transition: all 0.3x ease-in-out;
+  filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+  margin-top: 6px;
 }
 .button span {
-  line-height: 50px;
-  font-size: 20px;
-  color: #C1C8E4
+  line-height: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #303C6C;
+}
+.chooseButton {
+  width: 70px;
+  height: 25px;
+  background: #B4DFE5;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3x ease-in-out;
+  box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.25);
 }
 </style>
