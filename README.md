@@ -1,8 +1,13 @@
 # RoutingStar⭐
 
+[![Build Status](http://i5a309.p.ssafy.io:9090/buildStatus/icon?job=frontend_pipeline_test)](http://i5a309.p.ssafy.io:9090/job/frontend_pipeline_test/)
+[![Build Status](http://i5a309.p.ssafy.io:9090/buildStatus/icon?job=backend_pipeline_test)](http://i5a309.p.ssafy.io:9090/job/backend_pipeline_test/)
+
 > 안녕하세요! 서울 3반 9팀(흐뭇하구 조)의 공통 프로젝트 '루팅스타'를 소개합니다!
 >
-> **프로젝트 개요**와 **서비스 사용**에 대해 간략히 정리해두었으니 이해에 도움이 되셨으면 좋겠습니다.
+> **프로젝트 개요**와 **서비스 사용**에 대해 간략히 정리해두었으니 이해에 도움이 되셨으면 좋겠습니다.  
+
+[서비스 구경하러 가기](https://i5a309.p.ssafy.io)
 
  <img src="https://img.shields.io/badge/JavaScript-ES6+-green?logo=javascript">
  <img src="https://img.shields.io/badge/Vue.js-v2.6.11-green?logo=vue.js">
